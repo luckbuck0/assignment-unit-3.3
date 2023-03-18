@@ -75,8 +75,10 @@ let partsTotal = 572;
 let total = 0;
 // While statement stating to add 7 until total was 
 // greater then 572 and then to log it.
-while (partsTotal > total) { total = total + 7 };
-console.log(total);
+while (partsTotal > total) { 
+       total = total + 7 
+};
+      console.log(total);
 // Made a if statement to check if total had become 
 // higher then 572 if so to subtract 7 so that the 
 // correct number of boxes would be stated
