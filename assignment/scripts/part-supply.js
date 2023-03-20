@@ -31,13 +31,13 @@ supplyChanges.push(25)
 for (let x = 0; x < supplyChanges.length; x++) {
     console.log(supplyChanges[x]);
     if (supplyChanges[x] > 0) {
-        console.log("Added x parts.");
+        console.log("Added",supplyChanges[x],"parts");
     }
     if (supplyChanges[x] === 0) {
         console.log("No Change");
     }
     if (supplyChanges[x] < 0) {
-        console.log("Removed x parts.");
+        console.log("Removed",supplyChanges[x],"parts");
     }
 }
 
